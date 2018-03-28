@@ -1,5 +1,6 @@
 一、骰子的布局
 骰子的一面，最多可以放置9个点。
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071328.png">
 
 1.1 单项目
 * 首先，只有左上角1个点的情况。Flex布局默认就是首行左对齐，所以一行代码就够了。
@@ -127,5 +128,129 @@
 }
 .item:nth-child(2) {
   align-self: flex-end;
+}
+</pre>
+
+1.3 三项目
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071314.png">
+<pre>
+.box {
+  display: flex;
+}
+
+.item:nth-child(2) {
+  align-self: center;
+}
+
+.item:nth-child(3) {
+  align-self: flex-end;
+}
+</pre>
+
+1.4 四项目
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071315.png">
+<pre>
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+</pre>
+
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071316.png">
+HTML代码如下。
+<pre>
+"<div class="box">
+  <div class="column">
+    <span class="item"></span>
+    <span class="item"></span>
+  </div>
+  <div class="column">
+    <span class="item"></span>
+    <span class="item"></span>
+  </div>
+</div>"
+</pre>
+CSS代码如下。
+<pre>
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.column {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+</pre>
+
+1.5 六项目
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071317.png">
+<pre>
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+</pre>
+
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071318.png">
+<pre>
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+</pre>
+
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071319.png">
+HTML代码如下。
+<pre>
+"<div class="box">
+  <div class="row">
+    <span class="item"></span>
+    <span class="item"></span>
+    <span class="item"></span>
+  </div>
+  <div class="row">
+    <span class="item"></span>
+  </div>
+  <div class="row">
+     <span class="item"></span>
+     <span class="item"></span>
+  </div>
+</div>"
+</pre>
+CSS代码如下。
+<pre>
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row{
+  flex-basis: 100%;
+  display:flex;
+}
+
+.row:nth-child(2){
+  justify-content: center;
+}
+
+.row:nth-child(3){
+  justify-content: space-between;
+}
+</pre>
+
+1.6 九项目
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071320.png">
+<pre>
+.box {
+  display: flex;
+  flex-wrap: wrap;
 }
 </pre>
