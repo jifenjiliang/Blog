@@ -52,12 +52,14 @@
 }
 
 1.2 双项目
+* 两边水平方向对齐
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071308.png" />
 .box {
   display: flex;
   justify-content: space-between;
 }
 
+* 两边垂直方向靠左对齐
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071309.png" />
 .box {
   display: flex;
@@ -65,6 +67,7 @@
   justify-content: space-between;
 }
 
+* 两边垂直方向中间对齐
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071310.png" />
 .box {
   display: flex;
@@ -73,6 +76,7 @@
   align-items: center;
 }
 
+* 两边垂直方向靠右对齐
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071311.png" />
 .box {
   display: flex;
@@ -81,6 +85,7 @@
   align-items: flex-end;
 }
 
+* 一边左上角 一个居中
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071312.png" />
 .box {
   display: flex;
@@ -89,6 +94,7 @@
   align-self: center;
 }
 
+* 两边对角
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071313.png" />
 .box {
   display: flex;
