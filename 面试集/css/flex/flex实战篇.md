@@ -1,8 +1,7 @@
-一、骰子的布局
+<h2>一、骰子的布局</h2>
 骰子的一面，最多可以放置9个点。
-<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071328.png">
 
-1.1 单项目
+<h3>1.1 单项目</h3>
 * 首先，只有左上角1个点的情况。Flex布局默认就是首行左对齐，所以一行代码就够了。
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071301.png">
 <pre>
@@ -66,7 +65,7 @@
 }
 </pre>
 
-1.2 双项目
+<h3>1.2 双项目</h3>
 * 两边水平方向对齐
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071308.png" />
 <pre>
@@ -131,7 +130,7 @@
 }
 </pre>
 
-1.3 三项目
+<h3>1.3 三项目</h3>
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071314.png">
 <pre>
 .box {
@@ -147,7 +146,7 @@
 }
 </pre>
 
-1.4 四项目
+<h3>1.4 四项目</h3>
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071315.png">
 <pre>
 .box {
@@ -187,7 +186,7 @@ CSS代码如下。
 }
 </pre>
 
-1.5 六项目
+<h3>1.5 六项目</h3>
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071317.png">
 <pre>
 .box {
@@ -246,7 +245,7 @@ CSS代码如下。
 }
 </pre>
 
-1.6 九项目
+<h3>1.6 九项目</h3>
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071320.png">
 <pre>
 .box {
