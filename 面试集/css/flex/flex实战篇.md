@@ -47,7 +47,7 @@
 }
 
 1.2 双项目
-http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071308.png
+<img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071308.png" />
 .box {
   display: flex;
   justify-content: space-between;
