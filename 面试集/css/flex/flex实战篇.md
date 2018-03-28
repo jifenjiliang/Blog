@@ -209,20 +209,20 @@ CSS代码如下。
 <img src="http://www.ruanyifeng.com/blogimg/asset/2015/bg2015071319.png">
 HTML代码如下。
 <pre>
-"<div class="box">
-  <div class="row">
-    <span class="item"></span>
-    <span class="item"></span>
-    <span class="item"></span>
-  </div>
-  <div class="row">
-    <span class="item"></span>
-  </div>
-  <div class="row">
-     <span class="item"></span>
-     <span class="item"></span>
-  </div>
-</div>"
+<'div class="box"'>
+  <'div class="row"'>
+    <'span class="item"'></'span'>
+    <'span class="item"><'/span'>
+    <'span class="item"><'/span'>
+  </'div'>
+  <'div class="row">
+    <'span class="item"><'/span'>
+  <'/div>
+  <'div class="row">
+     <'span class="item"><'/span'>
+     <'span class="item"><'/span'>
+  <'/div'>
+<'/div'>
 </pre>
 CSS代码如下。
 <pre>
