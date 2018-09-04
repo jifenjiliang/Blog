@@ -3,6 +3,8 @@ Vue 提供一个官方命令行工具，可用于快速搭建大型单页应用�
 
 # 全局安装 vue-cli
 $ npm install --global vue-cli
+$ npm install --global vue-cli@2.9.2
+$ npm install --global @vue/cli
 
 # 创建一个基于 webpack 模板的新项目
 $ vue init webpack my-project
