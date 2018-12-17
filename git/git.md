@@ -18,6 +18,8 @@ git remote add origin https://github.com/jifenjiliang/Blog.git
 # 从远程 Git 仓库拉取
 git pull
 
+git pull origin master --allow-unrelated-histories
+
 # 查看状态
 git status
 

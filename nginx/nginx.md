@@ -15,3 +15,10 @@ systemctl enable nginx
 
 # 启动nginx
 systemctl start nginx
+
+# nginx 服务器命令
+启动nginx：service nginx start
+访问（nginx默认是80端口）：curl 127.0.0.1
+nginx配置文件目录：nginx -t
+重启nginx：service nginx restart
+停用nginx：service nginx stop
